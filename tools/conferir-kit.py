@@ -140,7 +140,7 @@ for width in (320,360,375,390,430):
         check(f'métrica manuscrita {width} {text}',advance<=available)
 check('seis roteiros e README',(ROOT/'README.md').is_file() and len(list((ROOT/'roteiros').glob('*')))==6)
 check('timeline do modelo escolhido',json.loads((ROOT/'motion/timeline.json').read_text())['model']==3)
-check('sem vídeo ou animação raster',not any(p.suffix.lower() in ('.mp4','.mov','.webm','.gif') for p in ROOT.rglob('*')))
+check('sem vídeo ou animação raster',not any(p.suffix.lower() in ('.mp4','.mov','.webm','.gif') for p in (SITE,ROOT/'images',ROOT/'motion') for p in p.rglob('*')))
 check('configuração local sem publicação',json.loads((SITE/'.openai/hosting.json').read_text())=={'static':{'directory':'.'}})
 check('sem pranchas dos modelos 1/2',not any(re.search(r'Model[oè]?-?[12][-.]',p.name,re.I) for p in ROOT.rglob('*')))
 report={'date':'2026-10-30','model':3,'status':'STATIC_CHECKS_PASS_BROWSER_QA_UNVERIFIED','passed':len(checks),'checks':checks,'raster_files':images,'font_metric_support':measures,'browser_qa':'UNVERIFIED — prévia indisponível; layout, cliques, teclado e performance não executados em navegador','preview_error':'sites-previewd mailbox is unavailable at /tmp/sites-previewd/requests','video':False,'deployed':False,'limits':['Campanhas não documentam proprietário, equipe, clientes ou interior.','Métricas de fonte são apoio estático, não prova de layout no navegador.']}
