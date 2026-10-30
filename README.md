@@ -5,7 +5,7 @@
 <h3>A one-page website for a hairdresser and barber in Pontchâteau, France, where a pencil drawing turns into a photograph as you scroll.</h3>
 
 <p>
-  <a href="site/"><strong>🌐 Site source</strong></a>
+  <a href="https://coiffure-karim-pontchateau.vercel.app"><strong>🌐 Live site</strong></a>
   &nbsp;·&nbsp;
   <a href="#hero-animation"><strong>🎬 How the animation works</strong></a>
   &nbsp;·&nbsp;
@@ -13,6 +13,7 @@
 </p>
 
 <p>
+  <a href="https://coiffure-karim-pontchateau.vercel.app"><img src="https://img.shields.io/badge/Vercel-Live-172A36?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" /></a>
   <img src="https://img.shields.io/badge/HTML_·_CSS_·_JS-no_build-172A36?style=for-the-badge&logo=html5&logoColor=white" alt="Static HTML, CSS and JavaScript with no build step" />
   <img src="https://img.shields.io/badge/Dependencies-none-EBA247?style=for-the-badge" alt="No runtime dependencies" />
   <img src="https://img.shields.io/badge/Browser_QA-97_checks-1D7F83?style=for-the-badge&logo=playwright&logoColor=white" alt="97 browser checks" />
@@ -41,7 +42,7 @@ The brief had one hard rule on top of the approved design: **no "ultra zoom"**. 
 ## 🎬 The animation
 
 <div align="center">
-  <img src=".github/assets/hero-scroll.gif" alt="Scrolling the page: the frieze is painted from pencil to photo, the number 14 is written, the macro develops from the scissors and the line lands under the last sentence" width="100%" />
+  <a href="https://coiffure-karim-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling the page: the frieze is painted from pencil to photo, the number 14 is written, the macro develops from the scissors and the line lands under the last sentence" width="100%" /></a>
   <sub>A steady scroll through the whole page · captured at 1440 × 900</sub>
 </div>
 
@@ -204,7 +205,9 @@ LEIA-ME-KIT.md        The design kit's original README
 
 ## 🚀 Deployment
 
-Static site, ready for **Vercel**. Not published yet.
+Hosted on **Vercel** and connected to this repository: every push to `main` ships to production.
+
+**Live site:** [coiffure-karim-pontchateau.vercel.app](https://coiffure-karim-pontchateau.vercel.app)
 
 | Setting          | Value                |
 | :--------------- | :------------------- |

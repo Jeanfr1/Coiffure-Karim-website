@@ -19,7 +19,19 @@ const open = async (w, h, opts = {}) => {
   p.on('response', r => r.status() >= 400 && p.problems.push(r.status() + ' ' + r.url()));
   return p;
 };
-const go = async (p, path = '') => { await p.goto(base + path, { waitUntil: 'networkidle' }); await p.waitForTimeout(300); };
+// Live runs: a dropped connection on this machine is not a site failure, so retry those only.
+const go = async (p, path = '') => {
+  for (let i = 0; ; i++) {
+    try {
+      await p.goto(base + path, { waitUntil: 'networkidle' });
+      break;
+    } catch (e) {
+      if (i >= 5 || !/ERR_INTERNET_DISCONNECTED|ERR_NETWORK_CHANGED|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION/.test(e.message)) throw e;
+      await p.waitForTimeout(5000 * (i + 1));
+    }
+  }
+  await p.waitForTimeout(300);
+};
 const to = async (p, y) => { await p.evaluate(v => window.scrollTo({ top: v, behavior: 'instant' }), y); await p.waitForTimeout(160); };
 const walk = async p => {
   const max = await p.evaluate(() => document.documentElement.scrollHeight - innerHeight);
