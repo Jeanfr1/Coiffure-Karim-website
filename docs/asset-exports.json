@@ -1,0 +1,14 @@
+{
+  "source_sha256": "8ec3ecef172ad784881c31cae53f1faac298f73379c448b489c281706e0b7fc4",
+  "full_contours": 52,
+  "mark_contours": 3,
+  "signature_contours": 3,
+  "native_svg": true,
+  "uniform_fill": "#172A36",
+  "png_size": [
+    1774,
+    887
+  ],
+  "webp_quality": 94,
+  "video": false
+}

@@ -1,0 +1,335 @@
+{
+  "model": 3,
+  "date": "2026-10-30",
+  "assets": [
+    {
+      "path": "brand/Avatar-Karim.png",
+      "sha256": "d2277925ad000981f219b462cd32eca8797fc11937959fc122385fecada88d37",
+      "bytes": 41017,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Avatar-Karim.svg",
+      "sha256": "39e669d7dcee256d90d589a2744e2869b57bbb64fd50e3775e9ace945212011e",
+      "bytes": 69638,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Logo-Karim-Ivoire-Transparente.png",
+      "sha256": "c9caf6565ba316cfb14e793f1fa35a0c5c533622e340a05ceeed67ffd550e225",
+      "bytes": 70307,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Logo-Karim-Ivoire.svg",
+      "sha256": "c652186655081c38765a42aa6f9680c6f5b13a11b375f8869b2502c467211db0",
+      "bytes": 249412,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Logo-Karim-Petrole-Transparente.png",
+      "sha256": "15b003b9f4810d6fc5fc0f205ad91df484b3ce24071e47413759e919caf12233",
+      "bytes": 70599,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Logo-Karim-Petrole.svg",
+      "sha256": "d388800a895bbd2bac375dba6fe333fcc52717f486cc54523a004ff14b687526",
+      "bytes": 249412,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Monogramme-K-Ivoire.svg",
+      "sha256": "a85f5966b56c15cc52b445ca66d9ef8e96c7937d053bf4262dc2f3569682917c",
+      "bytes": 69538,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Monogramme-K-Petrole.svg",
+      "sha256": "84e589a902810812087536f8b25373ee3bf505b547b8ebb3f3c78b1aa0b43c60",
+      "bytes": 69538,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Motif-Urbain.svg",
+      "sha256": "2530a7eb0b952aff41804a36bb56d91bd533c3fbf3a3a3c2f984c93dcba8108a",
+      "bytes": 1833,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Numero-14-Peigne.svg",
+      "sha256": "69acb631462877d7561b7e1f603e51b391ad31cd008e7e2b455ebf989290e973",
+      "bytes": 526,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/Signature-Karim.svg",
+      "sha256": "45c120f84bb99f6130f127b047e6f6c50f02b4c2e0b00f169483cbc76883b822",
+      "bytes": 111055,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "brand/source/Logo-Karim-Original-Transparente.png",
+      "sha256": "8ec3ecef172ad784881c31cae53f1faac298f73379c448b489c281706e0b7fc4",
+      "bytes": 356441,
+      "origin": "imagegen_logo_original",
+      "role": "original_logo"
+    },
+    {
+      "path": "fonts/BricolageGrotesque-Bold.ttf",
+      "sha256": "c1b0547f6756c3350f0f4acee48c26e3b2590e9b1fc182166c715d14d7074b5d",
+      "bytes": 90832,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/BricolageGrotesque-SemiBold.ttf",
+      "sha256": "3c39a7958c8c330e2517022ec60add72bc52436fbf487b98586c5b5c361daf06",
+      "bytes": 90840,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/Caveat-Medium.ttf",
+      "sha256": "fdb016f1219674ea315f1c81a068d76588ff48e05c31f35700dec1d3ce56db40",
+      "bytes": 266920,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/Caveat-SemiBold.ttf",
+      "sha256": "77587a2e4088b0d5584f0db913fe31711078901a2074e07bb805c429c9586dce",
+      "bytes": 266980,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/DMSans-Medium.ttf",
+      "sha256": "a0988411f08119ce5726ba8b436e7d29b8f522208a60fa631df1cbc9a43d4adc",
+      "bytes": 56872,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/DMSans-Regular.ttf",
+      "sha256": "b569ed5728df0b97ba1f0bbf464bfd1ea2aea04f8115114a73ed046d906e90ff",
+      "bytes": 56856,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/DMSans-SemiBold.ttf",
+      "sha256": "e1279a7a84954b18ecab87cf09181a00fb29b44d8802c4b4b767f5c35f6b8a13",
+      "bytes": 56824,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/originals/BricolageGrotesque-Variable.ttf",
+      "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682",
+      "bytes": 408496,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/originals/Caveat-Variable.ttf",
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+      "bytes": 403648,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "fonts/originals/DMSans-Variable.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "bytes": 240164,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "images/master/closing-art.png",
+      "sha256": "3905c1b33cf553fced1f471af08a1093a2c61172ec495c9928825026d7636cbd",
+      "bytes": 2750601,
+      "origin": "imagegen_campaign",
+      "role": "campaign_master"
+    },
+    {
+      "path": "images/master/hero-art.png",
+      "sha256": "79a0e73957dff73aed787f88914e2b203934d6e04db91a82a4f189e92d19e827",
+      "bytes": 2863200,
+      "origin": "imagegen_campaign",
+      "role": "campaign_master"
+    },
+    {
+      "path": "images/master/hero-mobile-art.png",
+      "sha256": "267ddff08e372125ca3baf6a1fdaafcba6f57c83f5650e30fbad416649ffad1f",
+      "bytes": 3017037,
+      "origin": "imagegen_campaign",
+      "role": "campaign_master"
+    },
+    {
+      "path": "images/master/service-frieze.png",
+      "sha256": "7fdc811f53cf691462521b76e870fcc69cad193e12bb10981eee9c89b316bece",
+      "bytes": 3213741,
+      "origin": "imagegen_campaign",
+      "role": "campaign_master"
+    },
+    {
+      "path": "references/Informacoes-Recebidas.png",
+      "sha256": "74c2a464c3b7851e2232d03e700b5c5a2ecbc803a3e2d6d4f6ed5df3a1373883",
+      "bytes": 1679021,
+      "origin": "user_attachment",
+      "role": "business_information_screenshot"
+    },
+    {
+      "path": "references/Modelo-3-Aprovado.png",
+      "sha256": "a9f37dab0744d53dc6159de187a202ee8b58009bb8405468951b181f5caa7f59",
+      "bytes": 1928201,
+      "origin": "user_attachment",
+      "role": "approved_model"
+    },
+    {
+      "path": "references/Referencia-Concept.png",
+      "sha256": "9232837404086cd6cf952b0c213eed686fba7238c79ad93b563306487def9a1e",
+      "bytes": 2644030,
+      "origin": "user_attachment",
+      "role": "style_reference"
+    },
+    {
+      "path": "site/assets/closing-art.webp",
+      "sha256": "b063d36203d17022690c3129bebba2e1afbd084800e5af6fd5d242ff93fa2711",
+      "bytes": 445770,
+      "origin": "web_distribution",
+      "role": "campaign_webp"
+    },
+    {
+      "path": "site/assets/favicon.svg",
+      "sha256": "96fd8dde702e73811851dd72367c7185f0d10d589df175dee8445f2bc5baf207",
+      "bytes": 69538,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/hero-art.webp",
+      "sha256": "35654097d73260eb9dd09ae564ba202a480c768abea25a7c2cdee96e6727c5d0",
+      "bytes": 486494,
+      "origin": "web_distribution",
+      "role": "campaign_webp"
+    },
+    {
+      "path": "site/assets/hero-mobile-art.webp",
+      "sha256": "a0c539000c7145bd7a531af324a0a9679f62e53b62ccf457e0c748dc72ea89e5",
+      "bytes": 527468,
+      "origin": "web_distribution",
+      "role": "campaign_webp"
+    },
+    {
+      "path": "site/assets/logo-ivoire.svg",
+      "sha256": "c058944e1cf93f7f7cc0737cfaee7a23c2d506adbc63b753555e665d7faccb10",
+      "bytes": 249415,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/logo-petrole.svg",
+      "sha256": "9b7315e508ac168e7ee61206310026dcd1c3d40666fe29c543d9fab53f26c212",
+      "bytes": 249415,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/numero-14-peigne.svg",
+      "sha256": "69acb631462877d7561b7e1f603e51b391ad31cd008e7e2b455ebf989290e973",
+      "bytes": 526,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/paper-texture.svg",
+      "sha256": "4d3b93b08877d889d8c473525ce21720c7b57ec30e9b6e5edc00c6d48c3f5eb0",
+      "bytes": 688,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/service-frieze.webp",
+      "sha256": "a6dac13d075bd931c791a9aaf4a4b13dd9d3ba108100cb49152ced2df68a8047",
+      "bytes": 618018,
+      "origin": "web_distribution",
+      "role": "campaign_webp"
+    },
+    {
+      "path": "site/assets/signature-karim.svg",
+      "sha256": "45c120f84bb99f6130f127b047e6f6c50f02b4c2e0b00f169483cbc76883b822",
+      "bytes": 111055,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/assets/ville-dessinee.svg",
+      "sha256": "2530a7eb0b952aff41804a36bb56d91bd533c3fbf3a3a3c2f984c93dcba8108a",
+      "bytes": 1833,
+      "origin": "native_vector_or_export",
+      "role": "brand_or_decorative_asset"
+    },
+    {
+      "path": "site/fonts/BricolageGrotesque-Bold.woff",
+      "sha256": "afc5ff06f87743ed39e751f1a9347df82d329ebfe88e41de612a89d6589bc829",
+      "bytes": 49020,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/BricolageGrotesque-SemiBold.woff",
+      "sha256": "389d0991da1abee96588ead610b086eced90d6c42d5b4a4fbe733ec5fe312b4d",
+      "bytes": 49200,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/Caveat-Medium.woff",
+      "sha256": "04111d18fcefc1a3c488b23b595f7c5a135ab57ef6b8cbca2be00024ecf69dfc",
+      "bytes": 142856,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/Caveat-SemiBold.woff",
+      "sha256": "4adf0caab924d5119582b46854435434d1248cf87e022934e42b8a946c21de95",
+      "bytes": 143200,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/DMSans-Medium.woff",
+      "sha256": "cda9689bdf97aa99f82aac854ac71697e1c05efee2840e2c81f3f1bb27448b16",
+      "bytes": 30432,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/DMSans-Regular.woff",
+      "sha256": "e4f6078d79f79c3214e17918063ee5bd12da7965768120d1d0273cff89d8bb62",
+      "bytes": 30128,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    },
+    {
+      "path": "site/fonts/DMSans-SemiBold.woff",
+      "sha256": "4702f1c89e4253948304d8f9d1fa8f7dd293db379df56b41dec40d63be519744",
+      "bytes": 29932,
+      "origin": "official_font_or_local_instance",
+      "role": "font"
+    }
+  ]
+}

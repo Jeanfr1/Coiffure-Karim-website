@@ -1,0 +1,16 @@
+{
+  "colors": {
+    "ink": "#172A36",
+    "paper": "#F3EFE4",
+    "saffron": "#EBA247",
+    "teal": "#1D7F83",
+    "coral": "#CE543A"
+  },
+  "solid_scene": "nous-trouver",
+  "heading_font": "Bricolage Grotesque",
+  "body_font": "DM Sans",
+  "handwritten_font": "Caveat",
+  "logo": "Lettering autoral convertido em contornos SVG nativos",
+  "accent_ink": "#BD662A",
+  "accent_note": "Tom mais escuro para lettering sobre papel; o açafrão permanece na marca gráfica e no 14."
+}

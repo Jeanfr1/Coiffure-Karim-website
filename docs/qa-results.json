@@ -1,0 +1,452 @@
+{
+  "date": "2026-10-30",
+  "model": 3,
+  "status": "STATIC_CHECKS_PASS_BROWSER_QA_UNVERIFIED",
+  "passed": 86,
+  "checks": [
+    {
+      "check": "modelo 3 e quatro cenas na ordem aprovada",
+      "status": "PASS",
+      "scenes": [
+        {
+          "id": "accueil",
+          "scene": "hero-line-portrait",
+          "background": "campaign"
+        },
+        {
+          "id": "les-coupes",
+          "scene": "service-frieze",
+          "background": "campaign"
+        },
+        {
+          "id": "nous-trouver",
+          "scene": "petroleum-location-14",
+          "background": "solid"
+        },
+        {
+          "id": "contact",
+          "scene": "hair-macro-contact",
+          "background": "campaign"
+        }
+      ]
+    },
+    {
+      "check": "único fundo liso na localização",
+      "status": "PASS"
+    },
+    {
+      "check": "francês e um H1",
+      "status": "PASS"
+    },
+    {
+      "check": "IDs únicos",
+      "status": "PASS"
+    },
+    {
+      "check": "âncoras existentes",
+      "status": "PASS"
+    },
+    {
+      "check": "ARIA aponta para IDs existentes",
+      "status": "PASS"
+    },
+    {
+      "check": "caminhos locais do HTML",
+      "status": "PASS"
+    },
+    {
+      "check": "links externos protegidos",
+      "status": "PASS"
+    },
+    {
+      "check": "itinerários do endereço correto",
+      "status": "PASS",
+      "count": 5
+    },
+    {
+      "check": "telefone correto em todos os links",
+      "status": "PASS",
+      "count": 8
+    },
+    {
+      "check": "sem agenda ou preços inventados",
+      "status": "PASS"
+    },
+    {
+      "check": "JSON-LD coerente",
+      "status": "PASS"
+    },
+    {
+      "check": "referência escolhida preservada",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG original preservado",
+      "status": "PASS"
+    },
+    {
+      "check": "quatro títulos específicos",
+      "status": "PASS"
+    },
+    {
+      "check": "sem mídia de vídeo áudio ou canvas",
+      "status": "PASS"
+    },
+    {
+      "check": "Hero responsivo próprio",
+      "status": "PASS"
+    },
+    {
+      "check": "links locais do guia",
+      "status": "PASS"
+    },
+    {
+      "check": "assets e fontes CSS existentes",
+      "status": "PASS"
+    },
+    {
+      "check": "CSS sem CDN",
+      "status": "PASS"
+    },
+    {
+      "check": "delimitadores CSS consistentes",
+      "status": "PASS"
+    },
+    {
+      "check": "redução e pausa previstas",
+      "status": "PASS"
+    },
+    {
+      "check": "sem runway ou scroll capturado",
+      "status": "PASS"
+    },
+    {
+      "check": "sintaxe app.js",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "IDs do JS app.js",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime sem rede app.js",
+      "status": "PASS"
+    },
+    {
+      "check": "sintaxe content.js",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "IDs do JS content.js",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime sem rede content.js",
+      "status": "PASS"
+    },
+    {
+      "check": "categorias e abas alinhadas",
+      "status": "PASS"
+    },
+    {
+      "check": "contato editável consistente",
+      "status": "PASS"
+    },
+    {
+      "check": "menu e diálogo nativos",
+      "status": "PASS"
+    },
+    {
+      "check": "pausa cancela animações e respeita preferências",
+      "status": "PASS"
+    },
+    {
+      "check": "teclado das abas previsto",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG 1774x887 RGBA Petrole",
+      "status": "PASS"
+    },
+    {
+      "check": "alfa real Petrole",
+      "status": "PASS",
+      "transparent_percent": 90.222
+    },
+    {
+      "check": "cantos transparentes Petrole",
+      "status": "PASS"
+    },
+    {
+      "check": "PNG 1774x887 RGBA Ivoire",
+      "status": "PASS"
+    },
+    {
+      "check": "alfa real Ivoire",
+      "status": "PASS",
+      "transparent_percent": 90.222
+    },
+    {
+      "check": "cantos transparentes Ivoire",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Avatar-Karim.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Logo-Karim-Ivoire.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Logo-Karim-Petrole.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Monogramme-K-Ivoire.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Monogramme-K-Petrole.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Motif-Urbain.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Numero-14-Peigne.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "SVG nativo Signature-Karim.svg",
+      "status": "PASS"
+    },
+    {
+      "check": "geometria do cabeçalho Petrole",
+      "status": "PASS"
+    },
+    {
+      "check": "geometria do cabeçalho Ivoire",
+      "status": "PASS"
+    },
+    {
+      "check": "SVGs do site válidos",
+      "status": "PASS"
+    },
+    {
+      "check": "três divisões diferentes",
+      "status": "PASS"
+    },
+    {
+      "check": "quatro masters de campanha",
+      "status": "PASS"
+    },
+    {
+      "check": "distribuição WebP service-frieze",
+      "status": "PASS"
+    },
+    {
+      "check": "distribuição WebP hero-mobile-art",
+      "status": "PASS"
+    },
+    {
+      "check": "distribuição WebP hero-art",
+      "status": "PASS"
+    },
+    {
+      "check": "distribuição WebP closing-art",
+      "status": "PASS"
+    },
+    {
+      "check": "hashes e assets do inventário",
+      "status": "PASS"
+    },
+    {
+      "check": "três referências recebidas identificadas",
+      "status": "PASS"
+    },
+    {
+      "check": "rasters legíveis",
+      "status": "PASS",
+      "count": 15
+    },
+    {
+      "check": "fonte válida Caveat-Medium.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida BricolageGrotesque-Bold.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida DMSans-Medium.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida DMSans-SemiBold.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida DMSans-Regular.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida Caveat-SemiBold.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "fonte válida BricolageGrotesque-SemiBold.woff",
+      "status": "PASS"
+    },
+    {
+      "check": "licença OFL BricolageGrotesque",
+      "status": "PASS"
+    },
+    {
+      "check": "licença OFL DMSans",
+      "status": "PASS"
+    },
+    {
+      "check": "licença OFL Caveat",
+      "status": "PASS"
+    },
+    {
+      "check": "fontes de origem oficial e hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 320 de la ligne.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 320 Une même attention.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 360 de la ligne.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 360 Une même attention.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 375 de la ligne.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 375 Une même attention.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 390 de la ligne.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 390 Une même attention.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 430 de la ligne.",
+      "status": "PASS"
+    },
+    {
+      "check": "métrica manuscrita 430 Une même attention.",
+      "status": "PASS"
+    },
+    {
+      "check": "seis roteiros e README",
+      "status": "PASS"
+    },
+    {
+      "check": "timeline do modelo escolhido",
+      "status": "PASS"
+    },
+    {
+      "check": "sem vídeo ou animação raster",
+      "status": "PASS"
+    },
+    {
+      "check": "configuração local sem publicação",
+      "status": "PASS"
+    },
+    {
+      "check": "sem pranchas dos modelos 1/2",
+      "status": "PASS"
+    }
+  ],
+  "raster_files": 15,
+  "font_metric_support": [
+    {
+      "viewport": 320,
+      "text": "de la ligne.",
+      "width": 215.6,
+      "available": 249.6
+    },
+    {
+      "viewport": 320,
+      "text": "Une même attention.",
+      "width": 139.7,
+      "available": 153.6
+    },
+    {
+      "viewport": 360,
+      "text": "de la ligne.",
+      "width": 215.6,
+      "available": 280.8
+    },
+    {
+      "viewport": 360,
+      "text": "Une même attention.",
+      "width": 139.7,
+      "available": 172.8
+    },
+    {
+      "viewport": 375,
+      "text": "de la ligne.",
+      "width": 246.9,
+      "available": 292.5
+    },
+    {
+      "viewport": 375,
+      "text": "Une même attention.",
+      "width": 146.0,
+      "available": 180.0
+    },
+    {
+      "viewport": 390,
+      "text": "de la ligne.",
+      "width": 246.9,
+      "available": 304.2
+    },
+    {
+      "viewport": 390,
+      "text": "Une même attention.",
+      "width": 146.0,
+      "available": 187.2
+    },
+    {
+      "viewport": 430,
+      "text": "de la ligne.",
+      "width": 246.9,
+      "available": 335.4
+    },
+    {
+      "viewport": 430,
+      "text": "Une même attention.",
+      "width": 146.0,
+      "available": 206.4
+    }
+  ],
+  "browser_qa": "UNVERIFIED — prévia indisponível; layout, cliques, teclado e performance não executados em navegador",
+  "preview_error": "sites-previewd mailbox is unavailable at /tmp/sites-previewd/requests",
+  "video": false,
+  "deployed": false,
+  "limits": [
+    "Campanhas não documentam proprietário, equipe, clientes ou interior.",
+    "Métricas de fonte são apoio estático, não prova de layout no navegador."
+  ]
+}

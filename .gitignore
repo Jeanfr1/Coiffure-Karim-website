@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.vercel
+.playwright-mcp/
+scripts/out/
+scripts/__pycache__/
+# Rebuilt by scripts/upscale.py (35 MB of PNG)
+images/upscaled/
+# Public repo: third-party directory capture and another brand's concept stay local
+references/Informacoes-Recebidas.png
+references/Referencia-Concept.png

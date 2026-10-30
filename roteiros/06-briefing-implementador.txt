@@ -1,0 +1,28 @@
+COIFFURE KARIM — MODÈLE 3 / LES LIGNES VIVANTES
+
+Utiliser site/ comme base. Référence exacte : references/Modelo-3-Aprovado.png.
+Conserver le Hero et les QUATRE scènes du modèle 3, pas les autres propositions.
+
+1. L’art de la ligne. Portrait à droite, dessin + photo + peinture sur papier.
+2. Trois gestes. Une même attention. Frise Homme / Enfant / Barbe sans cartes.
+3. Au cœur de Pontchâteau. Fond pétrole, 14-peigne, motif urbain discret.
+4. Le prochain trait, c’est le vôtre. Macro de coupe, marque, téléphone.
+
+Le seul fond uni principal est la scène 3. Typographie locale Bricolage
+Grotesque / DM Sans / Caveat. Marque originale PNG alpha et SVG en paths.
+Le motif urbain n’est pas une vue documentaire. Les portraits sont des
+illustrations de campagne, pas l’équipe ou le portfolio du salon.
+
+14 rue Maurice Sambron, 44160 Pontchâteau. 07 58 12 73 70.
+CTA : Venir au salon, Voir l’itinéraire, Appeler. Pas d’agenda inventé.
+Ne pas copier les coordonnées d’un autre projet.
+
+Animation : lire motion/timeline.json et roteiros/02-animacao.md.
+Masque diagonal, trait SVG, gris vers couleur, petits mouvements de plans.
+Pas de vidéo, audio, loop permanent, scroll capturé ou préloader bloquant.
+Respecter réduction du mouvement, économie de données et pause manuelle.
+Sans JS, l’ensemble du contenu et des contacts reste accessible.
+
+Contrôler le site dans un vrai navigateur avant publication. Browser QA est
+UNVERIFIED dans cette livraison ; les vérifications exécutées sont statiques.
+Livraison locale uniquement, aucune publication ni réservation effectuée.

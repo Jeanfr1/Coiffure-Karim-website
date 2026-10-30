@@ -1,0 +1,35 @@
+{
+  "project": "Coiffure Karim",
+  "model": 3,
+  "name": "Les Lignes Vivantes",
+  "date": "2026-10-30",
+  "source": "references/Modelo-3-Aprovado.png",
+  "source_attachment": "Screenshot 2026-10-30 at 10.19.30.png",
+  "scope": "Hero e quatro cenas do modelo 3, conforme a imagem escolhida. Sem mistura de outros modelos.",
+  "scene_order": [
+    {
+      "id": "accueil",
+      "scene": "hero-line-portrait",
+      "background": "campaign"
+    },
+    {
+      "id": "les-coupes",
+      "scene": "service-frieze",
+      "background": "campaign"
+    },
+    {
+      "id": "nous-trouver",
+      "scene": "petroleum-location-14",
+      "background": "solid"
+    },
+    {
+      "id": "contact",
+      "scene": "hair-macro-contact",
+      "background": "campaign"
+    }
+  ],
+  "skyline": "Ilustração urbana livre da proposta anexada, não foto ou representação geográfica exata.",
+  "public_language": "fr",
+  "video": false,
+  "deployment": false
+}

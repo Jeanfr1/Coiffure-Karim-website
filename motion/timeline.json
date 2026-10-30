@@ -1,0 +1,72 @@
+{
+  "project": "Coiffure Karim",
+  "model": 3,
+  "video": false,
+  "implementation": "site/app.js + styles.css; sem dependência de vídeo ou biblioteca externa",
+  "opening": [
+    {
+      "start_ms": 0,
+      "end_ms": 2000,
+      "layer": "hero-picture",
+      "action": "Máscara diagonal de 15% a 100%, opacidade .5→1 e grayscale(1)→grayscale(0)",
+      "easing": "cubic-bezier(.2,.65,.25,1)"
+    },
+    {
+      "start_ms": 0,
+      "end_ms": 1700,
+      "layer": "hero-line path[0]",
+      "action": "strokeDashoffset 1→0, pathLength=1",
+      "easing": "ease-out"
+    },
+    {
+      "start_ms": 120,
+      "end_ms": 1820,
+      "layer": "hero-line path[1]",
+      "action": "strokeDashoffset 1→0, pathLength=1",
+      "easing": "ease-out"
+    },
+    {
+      "start_ms": 160,
+      "end_ms": 1010,
+      "layer": "h1",
+      "action": "translateY 14→0, opacidade .45→1",
+      "easing": "ease-out"
+    }
+  ],
+  "scroll": [
+    {
+      "scene": "accueil",
+      "trigger": "0≤-rect.top/height≤1",
+      "values": "y 0→15px, scale1→1.012, pointer fino ±3px; linha em contramovimento .5×; cancela abertura em p>.035"
+    },
+    {
+      "scene": "les-coupes",
+      "trigger": "p=(viewportHeight-rect.top)/(viewportHeight+height), clamp0..1",
+      "values": "desktop x -7→7px, y -6→6px, scale1.018; mobile x0 y-2→2px scale1.006"
+    },
+    {
+      "scene": "nous-trouver",
+      "values": "14 y-5→5px; motivo urbano x-4→4px"
+    },
+    {
+      "scene": "contact",
+      "values": "desktop y-9→9px scale1.018; mobile y-2.5→2.5px scale1.004"
+    }
+  ],
+  "reveals": {
+    "threshold": 0.12,
+    "translateY_px": 14,
+    "duration_ms": 750,
+    "repeat": false
+  },
+  "reduced_motion": {
+    "automatic": [
+      "prefers-reduced-motion",
+      "navigator.connection.saveData"
+    ],
+    "manual_key": "karim.motion.paused",
+    "behavior": "Sem máscaras, transforms ou fade escondendo conteúdo; controles principais continuam acessíveis; botão bloqueado quando a preferência do sistema exige redução."
+  },
+  "runtime": "requestAnimationFrame somente por evento e quando visível; sem loop permanente; sem runway sticky; sem scroll capturado.",
+  "limits": "É uma transição gráfica 2D de planos, não uma simulação física 3D, filme ou sequência de frames."
+}
